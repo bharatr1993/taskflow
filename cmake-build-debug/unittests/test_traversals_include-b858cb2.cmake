@@ -1,0 +1,5 @@
+if(EXISTS "C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-debug/unittests/test_traversals_tests-b858cb2.cmake")
+  include("C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-debug/unittests/test_traversals_tests-b858cb2.cmake")
+else()
+  add_test(test_traversals_NOT_BUILT-b858cb2 test_traversals_NOT_BUILT-b858cb2)
+endif()

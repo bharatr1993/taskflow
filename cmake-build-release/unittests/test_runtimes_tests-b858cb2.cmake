@@ -1,0 +1,5 @@
+add_test( Runtime.Schedule.ModuleTask C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests/test_runtimes.exe [==[--test-case=Runtime.Schedule.ModuleTask]==])
+set_tests_properties( Runtime.Schedule.ModuleTask PROPERTIES WORKING_DIRECTORY C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests)
+add_test( Runtime.ExternalGraph.Simple C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests/test_runtimes.exe [==[--test-case=Runtime.ExternalGraph.Simple]==])
+set_tests_properties( Runtime.ExternalGraph.Simple PROPERTIES WORKING_DIRECTORY C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests)
+set( test_runtimes_TESTS Runtime.Schedule.ModuleTask Runtime.ExternalGraph.Simple)

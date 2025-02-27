@@ -17,8 +17,8 @@
 # CMake version
 cmake_minimum_required (VERSION 3.18)
 MESSAGE(STATUS "CMAKE_ROOT: " ${CMAKE_ROOT})
-
-# Project name
+set(CMAKE_CXX_FLAGS "-fpermissive")
+        # Project name
 project(Taskflow VERSION 3.10.0 LANGUAGES CXX)
 
 # build options

@@ -1,0 +1,7 @@
+add_test( moved_run C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests/test_movable.exe [==[--test-case=moved_run]==])
+set_tests_properties( moved_run PROPERTIES WORKING_DIRECTORY C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests)
+add_test( moved_taskflows C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests/test_movable.exe [==[--test-case=moved_taskflows]==])
+set_tests_properties( moved_taskflows PROPERTIES WORKING_DIRECTORY C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests)
+add_test( parallel_moved_runs C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests/test_movable.exe [==[--test-case=parallel_moved_runs]==])
+set_tests_properties( parallel_moved_runs PROPERTIES WORKING_DIRECTORY C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-release/unittests)
+set( test_movable_TESTS moved_run moved_taskflows parallel_moved_runs)

@@ -1,0 +1,53 @@
+"C:\Program Files\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Vulkan_CLion_Game_Engine\taskflow -B C:\Vulkan_CLion_Game_Engine\taskflow\cmake-build-debug
+-- CMAKE_ROOT: C:/Program Files/JetBrains/CLion 2024.3.3/bin/cmake/win/x64/share/cmake-3.30
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.3.3/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- PROJECT_NAME: Taskflow
+-- CMAKE_HOST_SYSTEM: Windows-10.0.22631
+-- CMAKE_BUILD_TYPE: Debug
+-- CMAKE_SYSTEM: Windows-10.0.22631
+-- CMAKE_SYSTEM_PROCESSOR: AMD64
+-- CMAKE_CXX_COMPILER: C:/Program Files/JetBrains/CLion 2024.3.3/bin/mingw/bin/g++.exe
+-- CMAKE_CXX_COMPILER_ID: GNU
+-- CMAKE_CXX_COMPILER_VERSION: 13.1.0
+-- CMAKE_CXX_FLAGS: -fpermissive
+-- CMAKE_CXX_STANDARD: 
+-- CMAKE_CUDA_COMPILER: 
+-- CMAKE_CUDA_COMPILER_ID: 
+-- CMAKE_CUDA_COMPILER_VERSION: 
+-- CMAKE_CUDA_FLAGS: 
+-- CMAKE_CUDA_STANDARD: 
+-- CMAKE_MODULE_PATH: 
+-- CMAKE_CURRENT_SOURCE_DIR: C:/Vulkan_CLion_Game_Engine/taskflow
+-- CMAKE_CURRENT_BINARY_DIR: C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-debug
+-- CMAKE_CURRENT_LIST_DIR: C:/Vulkan_CLion_Game_Engine/taskflow
+-- CMAKE_EXE_LINKER_FLAGS: 
+-- CMAKE_INSTALL_PREFIX: C:/Program Files (x86)/Taskflow
+-- CMAKE_INSTALL_FULL_INCLUDEDIR: C:/Program Files (x86)/Taskflow/include
+-- CMAKE_INSTALL_FULL_LIBDIR: C:/Program Files (x86)/Taskflow/lib
+-- CMAKE_MODULE_PATH: 
+-- CMAKE_PREFIX_PATH: 
+-- TF_BUILD_BENCHMARKS: OFF
+-- TF_BUILD_PROFILER: OFF
+-- TF_BUILD_CUDA: OFF
+-- TF_BUILD_SYCL: OFF
+-- TF_BUILD_SYCL_BITCODE: 
+-- TF_BUILD_TESTS: ON
+-- TF_BUILD_EXAMPLES: ON
+-- TF_UTEST_DIR: C:/Vulkan_CLion_Game_Engine/taskflow/unittests
+-- TF_EXAMPLE_DIR: C:/Vulkan_CLion_Game_Engine/taskflow/examples
+-- TF_BENCHMARK_DIR: C:/Vulkan_CLion_Game_Engine/taskflow/benchmarks
+-- TF_3RD_PARTY_DIR: C:/Vulkan_CLion_Game_Engine/taskflow/3rd-party
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Add test_exception to unit tests
+-- Configuring done (3.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Vulkan_CLion_Game_Engine/taskflow/cmake-build-debug
